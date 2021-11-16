@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView_Date"
+        android:layout_width="168dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="24dp"
+        android:text="yourdate"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#CF7C98"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/date_botn"
+        android:layout_width="321dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:background="#BC88C5"
+        android:backgroundTint="#AB67B6"
+        android:fontFamily="sans-serif"
+        android:text="DATE"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#E91E63"
+        android:textSize="16sp"
+        app:iconTint="#B6B3B4"
+        app:layout_constraintStart_toStartOf="@+id/textView_Date"
+        app:layout_constraintTop_toBottomOf="@+id/textView_Date"
+        app:strokeColor="#003E1645" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
